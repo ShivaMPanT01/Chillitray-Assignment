@@ -1,0 +1,13 @@
+.navbar {
+   margin-left: 1.5em;
+}
+
+.navLinks {
+   display: flex;
+   align-items: center;
+   height: 100%;
+}
+
+.navLink {
+   margin-inline: 1em;
+}

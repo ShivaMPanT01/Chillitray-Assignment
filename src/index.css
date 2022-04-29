@@ -1,5 +1,8 @@
 :root {
    --primary-color: #5d5fef;
+   --text-color: #2a373f;
+   --grey-color: #707d85;
+   --orange-color: #ffa300;
 }
 
 * {
@@ -14,4 +17,13 @@ body {
 
 a {
    text-decoration: none;
+   color: #707d85;
+   font-size: 0.8rem;
+   font-weight: 500;
+}
+
+ul,
+li {
+   margin: 0;
+   list-style: none;
 }
