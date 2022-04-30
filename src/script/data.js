@@ -16,6 +16,7 @@ import Like from '../Assets/images/Like.png';
 import Pocket from '../Assets/images/pocket.png';
 import Share from '../Assets/images/share.png';
 import Phone from '../Assets/images/Phone.png';
+import SearchIcon from '../Assets/images/SearchIcon.png';
 
 export const sideBarList = [
    {
@@ -207,4 +208,21 @@ export const newsData = [
          share: Share,
       },
    },
+];
+
+export const recentSearchesTopics = [
+   { topic: 'UX Design', img: Expansion, icon: SearchIcon },
+   { topic: 'Marketing', img: Expansion, icon: SearchIcon },
+   { topic: 'Expansion', icon: SearchIcon },
+   { topic: 'Technology', icon: SearchIcon },
+];
+
+export const followTopics = [
+   { topic: 'Design', topicName: 'UX Design' },
+   { topic: 'Technology', topicName: 'All about technology' },
+   { topic: 'Python ', topicName: 'Computer Programming' },
+   { topic: 'Expansion', topicName: 'Topic' },
+   { topic: 'Technology', topicName: 'Topic' },
+   { topic: 'Legal', topicName: 'Topic' },
+   { topic: 'New Hire', topicName: 'Topic' },
 ];
