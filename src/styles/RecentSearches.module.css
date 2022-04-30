@@ -1,0 +1,38 @@
+.recent-searches {
+   padding: 0;
+   margin: 0.5em;
+}
+
+.recent-searches__container h2 {
+   padding: 1em;
+   font-weight: 500;
+   font-size: 1em;
+   margin-right: 5em;
+   line-height: 24px;
+}
+
+.recent-searches__topics {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   align-items: center;
+   padding: 1em;
+   border-top: 1px solid rgba(112, 125, 133, 0.1);
+}
+
+.recent-searches__topic {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.recent-searches__topics a {
+   font-weight: 500;
+   font-size: 0.8em;
+   line-height: 20px;
+   margin-left: 0.5em;
+}
+
+.recent-searches__topics:last-child a {
+   color: #7879f1;
+}
